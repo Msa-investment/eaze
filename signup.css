@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgb(121, 155, 28);
+    
+}
+h1{
+    font-family: sans-serif;
+    text-shadow: 2px 2px 5px rgb(121, 155, 28), 2px 2px 4px white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.login-container {
+    padding: 20px; 
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    text-shadow: 2px 2px 4px rgb(121, 155, 28);
+    color: rgb(121, 155, 28);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: max-content;
+    box-shadow: 2px 2px 5px rgb(121, 155, 28);
+    color: rgb(121, 155, 28);
+    font-family:fantasy;
+}
+
+card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgb(121, 155, 28), 3px 3px 5px white;
+    width: 80%; /* Set the card width to 80% of the parent container */
+    max-width: 400px; /* Add a maximum width to limit card size */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+/* the upper login button */
+#login-button {
+    background-image: linear-gradient(to left, transparent, rgb(121, 155, 28));
+    border-radius: 5rem 0 0 5rem;
+}
+
+/* the upper signup button */
+#signup-button {
+    background-image: linear-gradient(to left, transparent, rgb(121, 155, 28));
+    border-radius: 0px 5rem 5rem 0px;
+}
+
+#login-button:hover {
+    width: 22.3%;
+}
+
+#signup-button:hover {
+    width: 22.3%;
+}
+
+.forgetpwd {
+    margin-top: 13%;
+    margin-left: -120px;
+}
+.forgetpwd a{
+   margin-right: -120px;
+   color: rgb(121, 155, 28);
+}
+.forgetpwd input{
+   margin-right: 120px;
+   color: rgb(121, 155, 28);
+}
+#pwdforget {
+    border: none;
+    box-shadow: none;
+}
+
+.sign-in-options {
+    justify-content: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    padding: 9px;
+    margin-top: -15px;
+    margin-bottom: 12px;
+}
+nav ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+header {
+    background-color: rgb(121, 155, 28);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.media-logo {
+    display: flex;
+    justify-content: space-between;
+    width:23px;
+}
+.homeicon{
+    margin-left: 750px;
+}
+footer {
+    background-color: rgb(121, 155, 28);
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; 
+}
+
+#signup-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -33px;
+    margin-left: 120px;
+}
+
+.btn {
+    background-image: linear-gradient(to left, rgb(121,155,26), #e3ebe4, #a4d1a0);
+    border-radius: 5rem 5rem;
+}
+
+.btn:hover {
+    width: 50%;
+    box-shadow: #a4d1a0;
+}
+.custom-select {
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(121, 155, 28);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px; 
+    color: rgb(121, 155, 28); 
+    background-color: white; /
+}
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(121, 155, 28);
+    -webkit-text-stroke: none;
+  }
+  .dropdown-button:hover{
+    border-radius: 9px;
+    box-shadow: 3px 3px 6px rgb(121, 155, 28);
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .dropdown-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(121, 155, 28);
+  }
+  .dropdown-option:hover{
+    background-color: rgb(121, 155, 28);
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px rgb(121, 155, 28);
+  }
+  .option-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  

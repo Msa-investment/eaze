@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaze-Farm login/sign-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+      <nav>
+<a href="C:\Eaze-Farm\landing page\index.html"><img src="file:///C:/Eaze-Farm/media/icons8-home.gif" class="homeicon"></a>
+    </nav>
+        <h1>Eaze-Farm</h1>
+    </header>
+    <main>
+        <card class="card">
+        <div class="login-container">
+            <div class="buttons">
+                <button id="login-button">Login</button>
+                <button id="signup-button">Signup</button><br>
+            </div><br>
+            <div id="login-form" class="form" style="display: block;">
+                
+                <form action="" method="dialog">
+                <label for="email" name="mail">E-mail:</label><br>
+                <input type="email" id="mail" class="mail" pattern="[A-Za-z-@]" required><br><br>
+                <label for="password" name="pwd">Password:</label><br>
+                    <input type="password" id="pwd" class="pwd" required minlength="8">
+                    <div class="forgetpwd">
+                        <a href="#"><i>forgotten password?</a><br>
+                      </div>
+                      <br>
+                      <button type="button" class="btn" id="done">Login</button>
+                </form>       
+            </div>
+            </div>            
+            <div id="signup-form" class="form" style="display:none">
+                  
+                <form action="" method="dialog">
+                    <label for="name" name="fname">Full-Name:</label><br>
+                    <input type="name" id="fname" class="name" required><br><br>
+                    <label for="email" name="mail">E-mail:</label><br>
+                    <input type="email" id="mail" class="mail" pattern="[A-Za-z-@]" required><br><br>
+                    <label for="phone" name="tel">Phone No:</label><br>
+                    <input type="tel" id="tel" class="tel" required><br><br>
+                    <label for="password" name="pwd">Password:</label><br>
+                    <input type="password" value="password" id="pwd" class="pwd" required minlength="8"><br>
+                    <label for="confirmpassword" name="pwd">Confirm Password:</label><br>
+                    <input type="confirmpassword" value="password" id="pwd" class="pwd" required minlength="8">
+                    <div class="forgetpwd">
+                        <input type="checkbox" href="#" id="pwdforget"><i><a href="#">Remember me</a></i><br>
+                      </div> 
+                </form>        
+                    <br>
+                    <button type="button" class="btn" id="register">Register</button>
+                     </form>       
+            </div>
+        </div>
+        <p class="sign-in-options">Or sign in using</p>
+        <div class="sign-in-options">
+<a href="#"><img src="C:\Eaze-Farm\media\fbook.png" class="media-logo"></i></a>
+<a href="#"><img src="C:\Eaze-Farm\media\twitter.png" class="media-logo"></i></a>
+<a href="#"><img src="C:\Eaze-Farm\media\google.png" class="media-logo"></i></a>
+<a href="#"><img src="C:\Eaze-Farm\media\ig.png" class="media-logo"></i></a>
+           </div>
+       </card>
+    </main>
+    <footer>
+     <p>&copy; 2023 Eaze-Farm. All rights reserved.</p>
+    </footer>
+    <script src="scripts1.js"></script>
+</body>
+</html>

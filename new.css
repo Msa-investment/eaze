@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 1px solid transparent;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: rgb(121, 155, 28);
+    padding-top: 40px;
+    padding-left: 10%;
+    background-color: rgb(121, 155, 28);
+
+}
+form{
+    width: 90%;
+    height: 90vh;
+    border-radius: 0px;
+    background-color: white;
+    padding-top: 50px;
+}
+form h1{
+    text-align: center;
+}
+form input{
+    width: 100%;
+    border: none;
+}
+.name{
+    display: flex;
+}
+.name fieldset{
+    width: 40%;
+    height: 55px;
+    margin-left: 5%;
+    margin-top: 20PX;
+}
+.address fieldset{
+    width: 85%;
+    height: 55px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+select{
+    width: 100%;
+    border: none;
+}
+button{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(121, 155, 28);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-left: 60%;
+    transform: scale(1);
+    transition: .2s;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,94 @@
+
+#body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(151, 121, 73);
+    
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+header{
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.button-container {
+    text-align: center;
+    /* margin-bottom: 50px; */
+    background: #595b5e;
+    background-image: url('pexels-flambo-1112080\ \(1\).jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 100vh; 
+    width: 100%;
+    height: 500px;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #007BFF; 
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.buyer-button {
+    background-color:#4db665 ; 
+}
+
+.buyer-button:hover {
+    background-color: #063512;; 
+}
+
+.trader-button {
+    background-color: #e7ec4b; 
+}
+
+.trader-button:hover {
+    background-color: #31311d; 
+}
+.logistic-button{
+    background-color: #a8aaac;
+}
+.logistic-button:hover {
+    background-color: #505255;
+}
+.farmer-button{
+    background-color: rgb(165, 87, 42);
+}
+.farmer-button:hover{
+    background-color:rgb(165, 122, 42) ;
+}
+
+.navbar {
+    background-color: #4CAF50; 
+    padding: 15px;
+    text-align: left;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; 
+  }
