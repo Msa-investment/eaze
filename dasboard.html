@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dasboard.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <script src="https://kit.fontawesome.com/ac88615137.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <nav>
+
+        <div id="mySidenav" class="sidenav"><a href="javascript:void(0)"class="closebtn"onclick="closeNav()">&times;</a>
+                
+            
+            <ul>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-home"></i>Eaze-Farm</li>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-home"></i>Dashboard</li>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-home"></i>Order</li>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-book"></i>Reciept</li>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-bell"></i>Notification</li>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-home"></i>likes</li>
+
+                <li><a href="#" class="logo">
+                </a><i class="fas fa-cog"></i></i>Settings</li>
+
+                <hr>
+
+                <li><a href="#" class="logo-1">
+                </a><i class="fas fa-sign"></i>Log-out</li>
+                
+
+            </ul>
+        </div>
+
+
+        
+            <span style="font-size:30px;cursor: pointer"onclick="openNav()">☰</span>
+
+
+
+        <!-- -----user profile----- -->
+
+        <section>
+
+        <!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
+        <div onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fas fa-user" id="login-btn"></i></div>
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="action_page.php">
+
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <div onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fas fa-user" id="login-btn1"></i></div>
+                </div>
+
+
+                <div class="container">
+
+                    <div class="leftbox">
+                        <head>
+                            <a onclick="tabs(0)" class="tabactive"><i class="fas fa-user"></i></a>
+                            <a onclick="tabs(1)" class="tab"><i class="fas fa-credit-card"></i></a>
+                            <a onclick="tabs(2)" class="tab"><i class="fas fa-tv"></i></a>
+                            <a onclick="tabs(3)" class="tab"><i class="fas fa-tasks"></i></a>
+                            <a onclick="tabs(4)" class="tab"><i class="fas fa-cog"></i></a>
+                        </head>
+                    </div>
+
+                    <div class="rightbox">
+                        <div class="profile tabshow">
+                            <h1>Personal Info</h1>
+
+                            <h2>Full Name</h2>
+                            <input type="text" class="input">
+
+                            <h2>Date of Birth</h2>
+                            <input type="text" class="input">
+
+                            <h2>Gender</h2>
+                           <select name="" id="">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                           </select>
+
+                            <h2>Email Adress</h2>
+                            <input type="email" class="input">
+
+                            <h2>Password</h2>
+                            <input type="password" class="input">
+
+                            <h2>Phone Number</h2>
+                            <input type="number" class="input">
+
+                            <button class="btn">Update</button>
+                        </div>
+
+                        
+
+                        <div class="payment tabshow">
+                            <h1>Payment Info</h1>
+
+                            <h2>Mayment Method</h2>
+                            <input type="text" class="input">
+
+                            <h2>Billing Adress</h2>
+                            <input type="number" class="input">
+
+                            <h2>Zip-code</h2>
+                            <input type="text" class="input">
+
+                            <h2>Billing Date</h2>
+                            <input type="text" class="input">
+
+                            <h2>Password</h2>
+                            <input type="password" class="input">
+
+                            <h2>Phone Number</h2>
+                            <input type="number" class="input">
+
+                            <button class="btn">Update</button>   
+                        </div>
+
+                    
+                        
+                    </div>
+
+                    
+                </div>
+
+
+            </form>
+        </div>
+
+        </section>
+
+
+
+    </nav>
+
+    
+<!-------- cards------ -->
+         <!--------------services------------>
+        <div id="services">
+            <h1 class="sub-title">Wellcome To Eaze-Farm</h1>
+            <div class="main">
+
+                    <div>
+                        <a href="#"><h2>Market</h2></a>
+                        
+                    </div>
+
+                    <div>
+                        <a href="forum.html"><h2>Forum</h2></a> 
+                    </div>
+            </div>
+
+            <div class="main">
+                <div>
+
+                    <a href="#"><h2>Wallet</h2></a>
+                
+                </div>
+
+                <div>
+                    
+                   <a href="map.html"><h2>Nearest Location</h2></a> 
+        
+                </div>
+            </div>
+
+            <!-- ------footer------ -->
+
+        </div>
+
+        <section>
+            <footer>
+                <h6>FEEL FREE AND MAKE YOUR BUSSINESS BETTER....</h6>
+                <marquee behavior="" direction="right">GET IN TOUCH AS WE TRUST TO HELP YOU WITH YOUR CASE</marquee>
+            </footer>
+            
+        </section>
+   
+
+    
+
+    <!-- script form the form -->
+
+        <script>
+
+            // Get the modal 
+            
+            var modal = document.getElementById
+            ('id01');
+            
+            // When the user clicks anywhere
+            outside of the modal, close it 
+            
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal.style.display = "none";
+                }
+            }
+        </script>
+
+    <!-- javascript for the nav-bar -->
+            <script>
+
+            /* Set the width of the side navigation to
+            250px */ 
+
+            function openNav() {
+            document.getElementById("mySidenav")
+            .style.width="250px";
+            }
+
+            function closeNav() {
+            document.getElementById("mySidenav")
+            .style.width = "0";
+            }
+            </script>
+
+    <!-- -----jquery----- -->
+            <script src="jquery/jquery.js"></script>
+            <script>
+                const tabBtn = document.querySelectorAll(".tab");
+                const tab = document.querySelectorAll(".tabshow");
+
+                function tabs(panelIndex){
+                    tab.forEach(function(node) {
+                        node.style.display = "none";
+                    })
+                    tab[panelIndex].style.display = "block";
+                }
+                tabs(0);
+            </script>
+            <script>
+                $(".tabs").click(function() {
+                    $(this).addClass(".tabactive").siblings().removeClass(".tabactive");
+                })
+            </script>
+
+</body>
+</html>

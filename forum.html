@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forum</title>
+    <link rel="stylesheet" href="forum.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <script src="https://kit.fontawesome.com/ac88615137.js" crossorigin="anonymous"></script>
+    <script>
+        function languagies(){
+            Element=document.getElementById("list").style.display="block";
+        }
+        function chartbot(){
+            document.getElementsByClassName("bot").style.display="block";
+        }
+    </script>
+</head>
+<body>
+    <!-- nav bar starting -->
+    <nav>
+        <div class="nav">
+            <h1>EF</h1>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="head">
+            <div class="headmenu">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Chart Forum</p>
+            </div>
+            <div class="headicons">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-language" onclick="languagies()"></i>
+                <div id="list" onclick="document.getElementById('list').style.display='none';">
+                    <a href="#">English</a>
+                    <a href="#">Hausa</a>
+                    <a href="#">Yoruba</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of the nav bar -->
+    <div class="chartbot">
+        <i class="fa-sharp fa-regular fa-comment-dots fa-bounce"></i>
+    </div>
+</body>
+</html>
